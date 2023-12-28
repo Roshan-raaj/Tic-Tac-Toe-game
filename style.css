@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bod{
+   background-image: url(data:image/jpeg;base64,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);
+
+
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   row-gap:100px;
+   
+
+}
+
+.font{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+
+ .head{
+    border: solid rgba(255, 255,255, 0.15);
+    background-color: rgba(255, 255,255, 0.15);
+    color: white;
+    border-radius: 25rem;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+ }
+
+
+.box{
+    border: solid rgba(255, 255,255, 0.25);
+    background-color: rgba(255, 255,255, 0.15);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+
+     
+}
+
+.btn{
+    border: solid rgba(255, 255,255, 0.15);
+    background-color: rgba(255, 255,255, 0.15);
+    color: white;
+    border-radius: 25rem;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+
+.eachbox{
+    width: 83px;
+    height: 83px;
+   
+    background-color: rgba(255, 255,255, 0.15);
+    color: white;
+   display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+
+
+.box1{
+    border-bottom: solid white;
+}
+
+.box2{
+    border-right: solid white;
+}
+
+
